@@ -1,16 +1,14 @@
 SystemJS.config({
-  baseURL: './',
-  map: {
-    htmlclean: '.',
-  },
-  meta: {
-    '*.html': { loader: 'html.js' }
-  },
-  packages: {
-    htmlclean: {
-      main: {
-        default: 'htmlclean.js'
-      }
+    baseURL: './',
+    map: {
+        htmlclean: 'htmlclean.js',
+    },
+    meta: {
+        'htmlclean.js': {
+            format: 'cjs'
+        },
+        '*.html': {
+            loader: 'html.js'
+        }
     }
-  }
 });

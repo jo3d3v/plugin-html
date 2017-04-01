@@ -1,3 +1,5 @@
+var htmlclean = require('htmlclean');
+
 /**
  * HTML plugin
  */

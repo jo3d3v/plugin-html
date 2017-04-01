@@ -1,4 +1,7 @@
 {
+  "scripts": {
+    "build": "jspm bundle-sfx ./htmlclean.js ../htmlclean.js --skip-source-maps --format cjs --minify"
+  },
   "jspm": {
     "dependencies": {
       "htmlclean": "npm:htmlclean@^3.0.2"

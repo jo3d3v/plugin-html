@@ -16,6 +16,11 @@
       "htmlclean": {
         "default": "./htmlclean.js"
       }
+    },
+    "meta": {
+      "./htmlclean.js": {
+        "format": "cjs"
+      }
     }
   }
 }
