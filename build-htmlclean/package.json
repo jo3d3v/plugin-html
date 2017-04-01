@@ -1,0 +1,19 @@
+{
+  "jspm": {
+    "dependencies": {
+      "htmlclean": "npm:htmlclean@^3.0.2"
+    },
+    "devDependencies": {
+      "babel": "npm:babel-core@^5.8.24",
+      "babel-runtime": "npm:babel-runtime@^5.8.24",
+      "core-js": "npm:core-js@^1.1.4"
+    },
+    "buildConfig": {
+      "transpileES6": true,
+      "minify": true
+    }
+  },
+  "devDependencies": {
+    "jspm": "^0.16.53"
+  }
+}
